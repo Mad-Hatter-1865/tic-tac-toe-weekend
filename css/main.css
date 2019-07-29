@@ -1,0 +1,60 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin-left:auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td {
+    padding: 50px;
+    text-align: center;
+    
+}
+
+#r0c0,#r0c1,#r1c0,#r1c1 {
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+#r0c2,#r1c2 {
+    border-bottom: 1px solid blue;
+}
+
+#r2c0,#r2c1 {
+    border-right: 1px solid blue;
+}
+
+h1 {
+    color: purple;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+}
+
+.button {
+    background-color: #F15B31;
+    color: white;
+    border: solid black;
+    width: 100px;
+    float: right;
+}
